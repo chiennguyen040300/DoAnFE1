@@ -1,0 +1,645 @@
+*{
+    font-family: system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;
+}
+/* ----------------------------------------------- */
+.top-header{
+    background: #393d4a;
+    height: 58px;
+}
+#top-menu{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    padding-top: 15px;
+}
+.call-body{
+    padding-top: 5px;
+}
+.alphabet{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.top-menu-item{
+    margin-left: 25px;
+}
+.c-top-menu{
+    width: 150px;
+    list-style: none;
+    padding-left: 0;
+    padding-right: 20px;
+    margin-top: 20px;
+    border-radius: 3px;
+    border: 1.5px solid #777A83;
+    border-bottom: 2px solid #777A83;
+    background: #fff;
+    position: absolute;
+    display: none;
+}
+.c-top-menu a{
+    color: black;
+    text-decoration: none;
+}
+.c-top-menu li{
+    padding-left: 10px;
+}
+.top-menu-demo a:hover{
+    color: #777A83;
+}
+.c-top-menu a:hover{
+    color: rgba(58,61,73,0.55);
+}
+.menu li:hover>ul{
+    display: block;
+}
+.call{
+    padding-top: 10px;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+}
+.call path{
+   fill: #fff;
+}
+.call button{
+    background: #393d4a;
+    border: none;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+.call button:hover{
+    opacity: 0.7;
+}
+.login{
+    margin-top: 10px;
+    fill: #fff;
+    padding-top: 5px;
+}
+.login a{
+    text-decoration: none;
+}
+.login a:hover{
+    opacity: 0.7;
+}
+.login span{
+    color: #fff;
+    padding-left: 11px;
+    font-weight: bold;
+}
+
+/* ----------------------------------------------- */
+.header-center{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.flag{
+    padding-left: 160px;
+}
+.left-flag{
+    padding-top: 20px;
+}
+.left-flag svg{
+    margin-right: 30px;
+}
+.left-flag svg:hover{
+    margin-right: 30px;
+    opacity: 0.5;
+}
+.right-flag{
+    padding-top: 20px;
+    text-align: center;
+}
+.right-flag svg{
+    margin-left: 30px;
+    position: relative;
+}
+.right-flag svg:hover{
+    opacity: 0.5;
+}
+
+/* ----------------------------------------------- */
+.lis-menu {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    -webkit-box-pack: center;
+    margin-left: 181px;
+    margin-right: 181px;
+    padding: 0;
+}
+
+.lis-menu li {
+    padding-right: 70px;
+    list-style: none;
+}
+
+.lis-menu li:hover {
+    fill: rgba(58, 61, 73, 0.55);
+}
+
+.lis-menu span:hover {
+    color: rgba(58, 61, 73, 0.55);
+}
+
+.lis-menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.lis-menu svg {
+    padding-left: 7px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.menu-drop {
+    padding: 0;
+    top: 90px;
+    left: -35px;
+    position: absolute;
+    display: none;
+    border-radius: 3px;
+    border: 1.5px solid #D1333C;
+    border-bottom: 2px solid #D1333C;
+    background: #D1333C;
+    color: #fff;
+    width: 143px;
+}
+
+.menu-drop li {
+    padding: 0;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.menu-drop li:hover{
+    opacity: 0.7;
+}
+#burger-menu{
+    position: relative;
+}
+
+#burger-menu:hover .menu-drop {
+    display: block;
+}
+
+/* ----------------------------------------------- */
+.row{
+    margin-right: 0;
+}
+.pizza-backgroup{
+  background-image: url('../image/demo1-1154666743.jpg');
+  background-size: cover;
+  height: 500px;
+}
+.capri{
+  text-align: center;
+  padding-top: 50px;
+}
+.oza{
+font-size: 86px; 
+font-weight: 700; 
+font-family:Oswald;
+}
+.capri-name{
+  padding-bottom: 10px;
+}
+.mony{
+font-size: 50px;
+font-weight: 200;
+}
+.capri button{
+  margin-top: 10px;
+  background: rgb(81, 190, 66);
+  border: rgb(81, 190, 66);
+  border-radius: 5px;
+  width: 186px;
+  height: 52px;
+  color: #fff;
+  font-weight: bold;
+}
+.capri button:hover{
+background: #000;
+}
+
+/* ----------------------------------------------- */
+.image-banner-left {
+    background-image: url('../image/download.jpg');
+    background-size: cover;
+    height: 240px;
+    padding-top: 70px;
+    color: #6f5e4d;
+}
+
+.image-banner-right {
+    background-image: url('../image/download2.jpg');
+    background-size: cover;
+    height: 240px;
+    padding-top: 70px;
+    color: #6f5e4d;
+}
+
+.image-banner-left div {
+    text-align: right;
+    padding-right: 30px;
+}
+
+.image-banner-right div {
+    text-align: right;
+    padding-right: 30px;
+}
+
+.japa {
+    font-family: "Oswald", sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 40px;
+}
+
+.fren {
+    font-family: "Oswald", sans-serif !important;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.tra {
+    font-weight: 200 !important;
+    font-size: 32px;
+}
+.button a{
+    font-family: "Roboto Condensed",sans-serif !important;
+    text-decoration: none;
+    color: #6f5e4d;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-bottom: 2px solid #6f5e4d;
+}
+.button a:hover{
+    opacity: 0.7;
+}
+
+.menu-banner{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.menu-banner li{
+    padding-right: 70px;
+}
+.menu-banner a{
+    text-decoration: none;
+}
+.menu-banner a:hover{
+    opacity: 0.5;
+}
+.banner-top{
+    margin-top: 90px;
+    font-family:Oswald;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+/* ----------------------------------------------- */
+
+.pizza-bccf {
+    text-decoration: none;
+    color: #3A3D49;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.pizza-bccf:hover{
+    color: #777A83;
+}
+
+.la {
+    margin-right: 14px;
+}
+#svg-info{
+    fill: #777A83;
+}
+.program{
+    margin-top: 15px;
+    color: #777A83;
+    font-family: "Roboto";
+}
+.crust{
+    margin-top: 15px;
+    color: #777A83;
+    font-family: "Roboto";
+    font-size: 12px;
+}
+.select{
+    margin-top: 5px;
+    color: #777A83;
+    font-family: "Roboto";
+    font-size: 12px;
+}
+.addtocard{
+    background: rgb(230,188,59);
+    border:rgb(230,188,59) ;
+    font-family: "Roboto";
+    width: 212px;
+    height: 42px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 2px;
+    opacity: 0;
+}
+.pizza-4:hover .addtocard{opacity: 1;}
+
+.pizza-4:hover .search{opacity: 1;}
+
+.search:hover{fill:#777A83 ;}
+
+.heard:hover{fill:#777A83 ;}
+
+.pizza-4:hover .heard{
+    opacity: 1;
+}
+.pizza-4{
+    width: 264px;
+    margin-left: 50px;
+}
+
+.search{
+    margin-top: 100px;
+    margin-left: 80px;
+    border: white;
+    border-radius: 5px;
+    width: 36px;
+    height:35px;
+    opacity: 0;
+}
+.heard{
+    margin-bottom: 50px;
+    border: white;
+    border-radius: 5px;
+    width: 36px;
+    height:35px;
+    opacity: 0;
+}
+
+/* ----------------------------------------------- */
+.tea {
+    margin-bottom: 60px;
+}
+
+.c-home-banner{
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.c-home-banner img{
+    position: relative;
+}
+.c-home-banners__inner-text{
+    position: absolute;
+    top: 2050px;
+    color: aliceblue;
+    padding-left: 800px;
+    text-align: center;
+}
+.japan{
+    margin-bottom: 8px;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Oswald";
+}
+.read{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 15px;
+    border-bottom: solid 2px currentColor;
+    font-family: "Roboto";
+}
+.read:hover{
+    color: aliceblue;
+    opacity: 0.7;
+}
+
+
+/* ----------------------------------------------- */
+h1 {
+    font-family: "Roboto";
+    font-weight: 700;
+    color: #3A3D49;
+    font-size: 31px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.food-p p {
+    font-family: "Roboto";
+    color: #777A83;
+    font-size: inherit;
+
+}
+
+.we {
+    font-family: "Oswald";
+    font-weight: 700;
+    color: #3A3D49;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.sub {
+    color: #3A3D49;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 31px;
+    margin-bottom: 14px;
+}
+
+.weekly {
+    margin: 0 0 19px 0;
+    font-size: 17px;
+    color: #777A83;
+    font-family: "Roboto";
+}
+
+.search-input {
+    height: 49px;
+    padding-left: 10px;
+    border-radius: 4px;
+    border: solid 1px #DBDEE4;
+    width: 100%;
+}
+
+.submit-buttom {
+    width: 166px;
+    height: 38px;
+    margin-left: 10px;
+    background-color: #3A3D49;
+    color: #FFFFFF;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* ----------------------------------------------- */
+.blog{
+    padding-top: 100px;
+    padding-bottom: 35px;
+    text-align: center;
+    
+}
+.blog a{
+    text-decoration: none;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 31px;
+    color: #3A3D49;
+}
+.few{
+    font-family: "Roboto";
+    font-weight: 700 ;
+    margin-bottom: 22px;
+}
+.few a{
+    text-decoration: none;
+    font-size: 31px;
+    color: #3A3D49;
+}
+.quick{
+    font-size: 17px;
+    color: #777A83;
+    font-family: "Roboto";
+}
+.reading{
+    color: #3A3D49;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: solid 1px #3A3D49;
+    font-family: "Roboto";
+}
+.reading:hover{
+    color: #777A83;;
+}
+.unca{
+    font-size: 14px;
+    color: #3A3D49;
+    text-decoration: none;
+}
+.unca:hover{
+    color: #777A83;;;
+}
+
+/* ----------------------------------------------- */
+.visit-working {
+    background-image: url('../image/download-5.jpg');
+    height: 400px;
+    margin-top: 40px;
+}
+
+.visit-svg {
+    text-align: center;
+    margin-bottom: 34px;
+}
+
+.visit-us {
+    text-align: center;
+    margin-bottom: 34px;
+    color: #3A3D49;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.south {
+    text-align: center;
+    margin-bottom: 34px;
+}
+
+.south p {
+    color: #777A83;
+    font-family: "Roboto";
+    font-size: 17px;
+}
+
+/* ----------------------------------------------- */
+
+footer{
+    background-image: url('../image/download-6.jpg');
+    height: 400px;
+}
+.phone-svg{
+    color: #989da4;
+    fill: #989da4;
+    font-size: 19px;
+    position: relative;
+    border: solid 1px currentColor;
+    border-radius: 4px;
+    width: 202px;
+    text-align: center;
+    margin-bottom: 35px;
+    font-family: "Roboto";
+    font-weight: 700;
+}
+.footer-contact{
+    color: #989da4;
+    font-family: "Roboto";
+    font-size: 15px;
+}
+.nav-menu-4{
+    color: #f4f5f7;
+    margin-left: 65px;
+}
+h2{
+    font-family: "Roboto";
+    color: #d0d4da;
+    font-size: 15px;
+}
+.nav-menu-4 ul{
+    margin-top: 20px;
+}
+.nav-menu-4 li{
+    list-style: none;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.nav-menu-4 a{
+    text-decoration: none;
+    font-family: "Roboto";
+    font-size: 16px;
+    color: #989da4;
+}
+.nav-menu-4 a:hover{
+    opacity: 0.7;
+}
+.bottom-footer{
+    padding-top: 0;
+}
+.copyright{
+    color: #989da4;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+/* ----------------------------------------------- */
+.btn-top {
+    background-color: #D1333C;
+    fill: #FFFFFF;
+    border: medium none;
+    bottom: 20px;
+    cursor: pointer;
+    display: none;
+    height: 50px;
+    outline: medium none;
+    padding: 0;
+    position: fixed;
+    right: 20px;
+    width: 50px;
+    z-index: 9999;
+}.btn-top svg{
+    margin-left: 15px;
+    margin-top: 20px;
+}
